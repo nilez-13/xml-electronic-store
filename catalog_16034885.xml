@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet type="text/css" href="catalog_16034885.css" ?>
+<!DOCTYPE ElectronicStore SYSTEM "catalog_16034885.dtd"[
+<!ENTITY brand SYSTEM "LOGO2.jpg" NDATA JPG >
+]>
+<ElectronicStore>
+	<Details>
+		<Logo Source="brand" />
+		<Shop_name>ElectronicZ</Shop_name>
+		<Address> Kamalpokhari </Address>
+		<Telephone> 980874949794 </Telephone>
+		<Web_address> electroniczstore.com.np </Web_address>
+		
+	</Details>
+	<Items>
+		<Item>
+			<CPU ref="m1 k1 hd1 sp1" >
+				<Name> Dell XPS Tower </Name>
+				<Item_number> 1 </Item_number>
+				<Description> The Dell XPS Tower Edition is stealthy. Looking quite similar to that old computer that your parents had hidden beneath the desk, this boring exterior belies an exciting array of components. Inside you’ll find your choice of the latest in GPU tech, in addition to a blazing-fast 7th generation Intel CPU and a spacious hard drive and/or SSDCPU: : Intel Core i5 – Core i7 | Graphics: : AMD Radeon RX 580 – Nvidia GeForce GTX 1080 | RAM: 8GB – 16GB | Storage: 256GB SSD; 1TB HDD – 512GB SSD; 2TB HDD  </Description>
+				<Quantity> 2</Quantity>
+				<Price> Rs,140,000</Price>
+				<Delivery delivery="Free"> Delivery</Delivery>
+			</CPU>
+		</Item>
+		<Item>	
+			<Monitor type="LED" mid="m1" >
+				<Name> BenQ PD3200U </Name>
+				<Item_number> 2 </Item_number>
+				<Description>BenQ has added the PD3200U, a massive 32-inch Ultra HD display, to its Designer Monitor range. Intended for worker bees, the company has, seemingly by mistake, crafted a screen that gamers can enjoy wholeheartedly as well, so long as they can fit it on their desks. The PD3200U is best suited for creators. 3D designers, for instance, will be grateful for the inclusion of a CAD/CAM mode, while everyone else will revel in the factory-calibrated color accuracy and Rec. 709 adherence. </Description>
+				<Quantity> 5 </Quantity>
+				<Price> Rs,70,000 </Price>
+				<Manufacturer> BenQ </Manufacturer>
+				<Resolution> 3,840 x 2,160 </Resolution>
+				<Dimension> 29.1 in x 8.8 in x 19.4 in </Dimension>
+				<Color> Black </Color>
+				<MSpeaker> Beats </MSpeaker>
+			</Monitor>
+		</Item>
+		<Item>
+			<Mouse>
+				<Name> Logitech MX </Name>
+				<Item_number> 3</Item_number>
+				<Description>Smaller than Logitech’s flagship, the MX Master, the Logitech MX Anywhere 2 is the ideal travel mouse. It can connect with up to three distinct devices with 2.4GHZ wireless technology or with Bluetooth, making it obvious why this mouse is renowned for having quick setup and surprisingly long battery life.
+				 DPI: 1,600 | Interface: Bluetooth and 2.4GHz wireless (pairs with up to three devices) | Buttons: 6 | Ergonomic: Right-handed | Features: Scrolling wheel, Logitech Darkfield Laser Tracking, Unifying receiver, Easy-Switch tech, gesture function</Description>
+				<Quantity> 13</Quantity>
+				<Price> Rs,5000</Price>	
+			</Mouse>
+		</Item>
+		<Item>
+			<Keyboard kid="k1">
+				<Name> Topre Realforce 87U Tenkeyless</Name>
+				<Item_number> 5</Item_number>
+				<Description> Made by the Japanese Topre Corporation, the Realforce is, as its name suggests, a force of nature in the keyboard world. It's all down to the Topre switches inside, which in contrast to Cherry's MX switches, are super smooth to type on and are often compared to playing weighted piano keys.
+					Interface: Wired | Keyboard backlighting: No | Switches: Topre electrostatic capacitive (30/45/55 grams variable, 45 grams, 55 grams)
+				 </Description>
+				<Quantity> 4</Quantity>
+				<Price> Rs,3000</Price>
+			</Keyboard>
+		</Item>
+		<Item>
+			<Harddisk hid="hd1">
+				<Name>Seagate BarraCuda</Name>
+				<Item_number> 6 </Item_number>
+				<Description> This 4TB drive is the largest model in the BarraCuda series, and while it’s not the biggest you can get – the BarraCuda Pro family goes up to 10TB – it should provide more than enough storage for personal use. It’s not the fastest disk out there, either: it uses just two 2TB platters, combined with 256MB of cache, to end up with read and write speeds of around 165MB/sec. </Description>
+				<Quantity> 5  </Quantity>
+				<Price> Rs,12,000</Price> 
+			</Harddisk>
+		</Item>
+		<Item>
+			<Speaker sid="sp1">
+				<Name> Aperion Allaire  </Name>
+				<Item_number> 7 </Item_number>
+				<Description> The Allaire offers the most complete combination of high-end sound quality, versatility, and connectivity in the genre. With Bluetooth, a digital optical input, an analog input, a subwoofer output, and a USB port for charging devices, the Allaire is suitable for almost any installation. It includes a 1-inch dome tweeter and a 4-inch woven fiberglass woofer </Description>
+				<Quantity> 5 </Quantity>
+				<Price> Rs,40,000</Price> 
+			</Speaker>
+		</Item>
+		<Item>
+			<CPU ref="m1 k1 hd1 sp2" >
+				<Name> Zotac Magnus EN1060 </Name>
+				<Item_number> 8 </Item_number>
+				<Description>The Zotac Magnus EN1060 is a perfect example of appearances being deceiving – while it’s essentially as small as the Apple Mac Mini, it’s exponentially more powerful, enough to even drive VR experiences. Sure, it’s a little outdated, rocking a 6th-generation Intel Core i5 CPU, but thanks to its small size and understated features, you can tuck this stealthy desktop under an entertainment center and pass it off as a gaming console.
+					CPU: : Intel Core i5-6400T | Graphics: : Nvidia GTX 1060 (6GB GDDR5 VRAM) | RAM: 8GB | Storage: 1TB
+				 </Description>
+				<Quantity> 2</Quantity>
+				<Price> Rs,90,000</Price>
+				<Delivery delivery="Express"> Delivery</Delivery>
+			</CPU>
+		</Item>
+		<Item>
+			<CPU ref="m2 k2 hd2 sp2" >
+				<Name> Alienware Aurora R6 </Name>
+				<Item_number> 9 </Item_number>
+				<Description>The Alienware Aurora R6 is an excellent gaming PC that offers brilliant performance in a conveniently compact body. The affordable price is pretty great as well, considering the power on offer and users itching for upgrades will have room to pick up a second graphics card, plus more RAM and storage.
+					CPU: Intel Core i5 – i7 | Graphics: AMD Radeon RX 560 – Nvidia GeForce GTX 1080 Ti | RAM: 8GB – 64GB | Storage: 1TB – 2TB HDD, 256GB - 1TB M.2 PCIe SSD, 2TB HDD
+				 </Description>
+				<Quantity> 3</Quantity>
+				<Price> Rs,240,000</Price>
+				<Delivery delivery="Express"> Delivery</Delivery>
+			</CPU>
+		</Item>
+		<Item>	
+			<Monitor type="LCD" mid="m2" >
+				<Name> Alienware AW3418DW</Name>
+				<Item_number> 10 </Item_number>
+				<Description>Alienware has always had a reputation for delivering high-end equipment (at an equally high cost), and the Alienware AW3418DW is no exception. Offering a beautiful and colorful 21:9 display, a lightning-fast 4ms response time and a stunning 120Hz refresh rate – making the AW3418DW the best of both worlds.  </Description>
+				<Quantity> 2 </Quantity>
+				<Price> Rs,100,000 </Price>
+				<Manufacturer> Dell </Manufacturer>
+				<Resolution> 3440 x 1440 </Resolution>
+				<Dimension> 32 in x 12.6 in x 17.4 in </Dimension>
+				<Color> Black </Color>
+			</Monitor>
+		</Item>
+		<Item>
+			<Keyboard kid="k2">
+				<Name>Logitech G513</Name>
+				<Item_number> 11</Item_number>
+				<Description> The Logitech G513 and its Romer-G Linear switches outshine the rest of the competition. Add in the brushed metal finish that, miraculously, is all but immune to fingerprints, and you have a recipe for one of the best gaming keyboards you can buy today.
+					Interface: Wired | Keyboard backlighting: Yes | Programmable keys: Yes
+				 </Description>
+				<Quantity> 2</Quantity>
+				<Price> Rs,4000</Price>
+			</Keyboard>
+		</Item>
+		<Item>
+			<Harddisk hid="hd2">
+				<Name>WD Black</Name>
+				<Item_number> 12 </Item_number>
+				<Description> This 4TB drive is the largest model in the Black series. It has a speed of 7200 RPM and a huge 128 MB cache. It has SATA of 6 Gb/s and comes in a 3.5inch form factor. It is sure to give great performance. It also provides 5 years of warranty. </Description>
+				<Quantity> 5  </Quantity>
+				<Price> Rs,15,000</Price> 
+			</Harddisk>
+		</Item>
+		<Item>
+			<Speaker sid="sp2">
+				<Name> Harman Kardon SoundSticks  </Name>
+				<Item_number> 7 </Item_number>
+				<Description> With four full-range drivers on each satellite, the speakers offer tremendous sound while remaining deceptively minimal. Even at lower volumes they were more than enough to fill the room with clear audio. You can even adjust the angle of the satellites to further optimize the sound direction. While the low-end performance of the subwoofer was slightly lacking in comparison to the Klipsch Promedia 2.1 speakers we tested, the exceptionally crisp audio from all types of music and game sounds made it difficult for us to pass up the SoundSticks.  </Description>
+				<Quantity> 2 </Quantity>
+				<Price> Rs,25,000</Price> 
+			</Speaker>
+		</Item>
+
+	</Items>
+</ElectronicStore>

@@ -1,0 +1,48 @@
+<!ELEMENT ElectronicStore (Details,Items)>
+<!ELEMENT Details (Logo,Shop_name,Address,Telephone,Web_address ) >
+<!ELEMENT Items (Item+) >
+<!ELEMENT Item (CPU*,Monitor*,Mouse*,Keyboard*,Harddisk*,Speaker* ) >
+
+<!ELEMENT Logo EMPTY >
+<!ELEMENT Shop_name (#PCDATA) >
+<!ELEMENT Address (#PCDATA) >
+<!ELEMENT Telephone (#PCDATA) >
+<!ELEMENT Web_address (#PCDATA) >
+
+
+<!ATTLIST Logo Source ENTITY #REQUIRED>
+<!NOTATION JPG SYSTEM "image/jpg" >
+
+<!ELEMENT CPU (Name,Item_number,Description,Quantity,Price,Delivery) >
+<!ELEMENT Name (#PCDATA) >
+<!ELEMENT Item_number (#PCDATA) >
+<!ELEMENT Description (#PCDATA) >
+<!ELEMENT Quantity (#PCDATA) >
+<!ELEMENT Price (#PCDATA) >
+<!ELEMENT Delivery (#PCDATA) >
+
+<!ATTLIST CPU ref IDREFS #REQUIRED>
+<!ATTLIST Delivery delivery (Free|Express) #REQUIRED >
+
+<!ELEMENT Monitor (Name,Item_number,Description,Quantity,Price,Manufacturer,Resolution,Dimension,Color,MSpeaker?)>
+<!ATTLIST Monitor type (CRT|LED|LCD) #REQUIRED>
+<!ATTLIST Monitor mid ID #REQUIRED>
+
+<!ELEMENT Mouse (Name,Item_number,Description,Quantity,Price)>
+
+<!ELEMENT Keyboard (Name,Item_number,Description,Quantity,Price)>
+<!ATTLIST Keyboard kid ID #REQUIRED>
+
+<!ELEMENT Harddisk (Name,Item_number,Description,Quantity,Price)>
+<!ATTLIST Harddisk hid ID #REQUIRED>
+
+<!ELEMENT Speaker (Name,Item_number,Description,Quantity,Price)>
+<!ATTLIST Speaker sid ID #REQUIRED>
+
+<!ELEMENT Manufacturer (#PCDATA) >
+<!ELEMENT Resolution (#PCDATA) >
+<!ELEMENT Dimension (#PCDATA) >
+<!ELEMENT Color (#PCDATA) >
+<!ELEMENT MSpeaker (#PCDATA) >
+
+

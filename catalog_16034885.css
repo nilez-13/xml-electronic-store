@@ -1,0 +1,98 @@
+ElectronicStore
+{ 
+background-image: url("back.jpg"); 
+width: 100%;
+}
+
+Details{
+	display: list-item;
+	background-color: rgb(50,50,50);
+	float: left;
+	width: 100%;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+Logo{
+ 	display: block;
+ 	width: 220px;
+	height: 50px;
+	background-image: url("LOGO2.jpg");
+	background-repeat: no-repeat;
+	float: left;
+	border-right: 2px solid white;
+ }
+
+Shop_name,Address,Telephone,Web_address
+ { 
+ 	display: block;
+ 	padding: 14px 16px;
+	text-align: center;
+	border-right: 2px solid white;
+	float: left;
+}
+ Address::before {content: "Address:"}
+ Telephone::before {content: "Telephone:"}
+ Web_address::before {content: "URL:"}
+ 
+ 
+Items{
+	width:90%;
+	margin:auto;
+	padding:10px;
+	color: white;
+	display: table;
+	margin-top: 50px;
+	font-family: Raleway,"Lucida Sans Unicode",sans-serif;
+}
+Item{
+	display: block;
+	text-align: left;
+	margin:10px 0 10px 0;
+}
+
+CPU, Monitor, Speaker, Mouse, Keyboard, Harddisk
+ { 
+ 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+    width: 80%;
+    border-radius: 5px;
+    color: rgb(102, 102, 153);
+	display: block;
+	align-self: center; 
+	padding: 15px 0 15px 0;
+	font-size: 24px;
+	background-color: rgb(50,50,50); 
+	margin: auto;
+ }
+
+CPU::before {content: "CPU :"; padding-left: 10px;   }
+Monitor::before {content: "Monitor (" attr(type) "):"; padding-left: 10px; }
+Mouse::before {content: "Mouse :"; padding-left: 10px; }
+Speaker::before {content: "Speaker :"; padding-left: 10px; }
+Keyboard::before {content: "Keyboard :"; padding-left: 10px; }
+Harddisk::before {content: "Harddisk :"; padding-left: 10px; }
+
+
+Name,Item_number,Description,Quantity,Price,Delivery,Manufacturer,Resolution,Dimension,Color,MSpeaker
+ { display: list-item; font-size: 17px;
+ 	list-style: none; padding: 2px 16px;
+    color: white;
+  }
+
+Delivery{
+  	text-align: right;
+  	color: rgb(255, 26, 26);
+  }
+
+Name::before {content: "Product Name :" ; color:red;}
+Item_number::before {content: "Item number :"; color:red; }
+Description::before {content: "Description :"; color:red; }
+Quantity::before {content: "Quantity :"; color:red; }
+Price::before {content: "Price :"; color:red;}
+Delivery::before {content: attr(delivery); color:red; }
+
+Manufacturer::before {content: "Manufacturer :"; color:red; }
+Resolution::before {content: "Resolution :"; color:red; }
+Dimension::before {content: "Dimension :"; color:red; }
+Color::before {content: "Color :"; color:red; }
+MSpeaker::before {content: "Speaker included :"; color:red; }
+
